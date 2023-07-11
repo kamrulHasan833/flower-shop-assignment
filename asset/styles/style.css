@@ -189,6 +189,7 @@ section {
   gap: 60px;
   justify-content: center;
   padding: 85px 0;
+  border-radius: 8px;
   background: #f4f4f4;
 }
 .service {
