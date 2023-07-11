@@ -50,8 +50,8 @@ img {
   margin: auto;
 }
 section {
-  margin: 0 30px;
-  padding-bottom: 130px;
+  margin-bottom: 130px;
+  padding: 0 30px;
 }
 
 /* header-area Styles */
@@ -59,7 +59,7 @@ section {
   background: #fdeef1;
 }
 .header-area section {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 /* Main header-area styles */
 .header-wrapper {
@@ -211,6 +211,9 @@ section {
 }
 
 /* Offer Area styles */
+.offer-area {
+  background: rgba(229, 84, 115, 0.05);
+}
 .offer {
   display: flex;
   justify-content: center;
@@ -275,7 +278,7 @@ section {
   max-width: 50%;
   outline: none;
   border: 0;
-  background: #e2e5e6;
+  background: #ffffff;
 }
 .latest-flower input[type="text"]:focus {
   outline: 1px solid #53b5fd;
